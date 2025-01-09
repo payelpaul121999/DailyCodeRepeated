@@ -18,3 +18,6 @@ fun findOddAndEvenFromArray(){
     println("EvenList from Array :${evenList}")
     println("OddList from Array :${oddList}")
 }
+fun main(){
+    findOddAndEvenFromArray()
+}
