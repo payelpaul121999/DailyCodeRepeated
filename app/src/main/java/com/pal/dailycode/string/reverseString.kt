@@ -9,17 +9,10 @@ fun reverseStrings(str:String):String{
     return reverse
 }
 
-fun main(){
-   println("${reverseString("Hello")}")
-}
+
 /***reverse a string**/
 fun reverseString(s:String):String{
     return s.reversed()
-    val result = StringBuilder()
-    for (i in s.length-1 downTo 0){
-        result.append(s[i])
-    }
-    return result.toString()
 }
 
 fun reverseStringUsingLoopFromEnd(s:String):String{
@@ -41,4 +34,7 @@ fun reverseStringUsingSwap(s:String):String{
         right--
     }
     return String(char)
+}
+fun main(){
+    println("${reverseString("Hello")}")
 }
